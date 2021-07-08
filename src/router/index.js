@@ -8,6 +8,8 @@ import Donghua3 from '@/components/donghua3'
 import Donghua4 from '@/components/donghua4'
 import Donghua5 from '@/components/donghua5'
 import Donghua6 from '@/components/donghua6'
+import Donghua7 from '@/components/donghua7'
+import Donghua8 from '@/components/donghua8'
 
 Vue.use(Router)
 
@@ -60,6 +62,14 @@ export default new Router({
       {
         path: '/Donghua6',
         component: Donghua6
+      },
+      {
+        path: '/Donghua7',
+        component: Donghua7
+      },
+      {
+        path: '/Donghua8',
+        component: Donghua8
       }
     ]
 })
